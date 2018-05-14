@@ -3,11 +3,11 @@
 ## package it using below command
 $ mvn package
 
-##Then run the jar file as below
+## Then run the jar file as below
 $ java -jar target/FutureTransactions-1.0.jar "C:/temp/Input.txt" "2010-08-20"
 
 
-##Output is shown as below
+## Output is shown as below
 2018-05-14 22:28:54.907  INFO 5840 --- [           main] c.a.s.config.FutureCLIConntroller        : Starting FutureCLIConntroller v1.0 on LENOVO wit
 2018-05-14 22:28:54.916  INFO 5840 --- [           main] c.a.s.config.FutureCLIConntroller        : No active profile set, falling back to default p
 2018-05-14 22:28:54.981  INFO 5840 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotatio
