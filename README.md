@@ -1,10 +1,10 @@
 # Installation Guide for FutureTransactionService CLI
 ## Go to project directory
 ## package it using below command
-$ mvn package
+$ mvn -e package
 
 ## Then run the jar file as below
-$ java -jar target/FutureTransactions-1.0.jar "C:/temp/Input.txt" "2010-08-20"
+$ java -jar target/FutureTransactions-1.0.jar "./Input.txt" "2010-08-20"
 
 
 ## Output is shown as below
