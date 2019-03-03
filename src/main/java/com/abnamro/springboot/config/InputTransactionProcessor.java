@@ -171,7 +171,7 @@ public class InputTransactionProcessor {
 	protected void writeReport(List<String> results,String date) throws IOException, Exception{
 		FileWriter writer = null;
 		try{
-	    writer = new FileWriter("/temp/Output"+date+".csv");
+	    writer = new FileWriter("./temp/Output"+date+".csv");
 	    writer.append(COL_HEADER);
 		for (String result : results) {
 			writer.append(result);
